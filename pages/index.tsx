@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <Header lottieAnimationData={DeveloperAnimation}>
         <h2>Prabodh Panda, Full Stack Developer</h2>
         <h1>
-          Web Technologies Enthusiast who specializes in creating premium, component based UIs in React
+          Web Technologies Enthusiast who specializes in creating <span>PREMIUM, COMPONENT BASED UIs</span> in React
         </h1>
         <Button label="Explore"/>
         <Button label="View CV" vairant="secondary"/>

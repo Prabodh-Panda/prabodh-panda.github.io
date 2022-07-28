@@ -68,11 +68,15 @@ const Header = ({ children, imgSrc, lottieAnimationData }: HeaderProps) => {
         </motion.div>
       }
       {lottieAnimationData &&
-        <div
+        <motion.div
+          variants={popIn}
+          initial="hide"
+          whileInView={"enter"}
+          transition={{ type: "spring" }}
           className={styles.lottieAnimation} 
           ref={lottieWrapper}
         >
-        </div>
+        </motion.div>
       }
     </div>
   );

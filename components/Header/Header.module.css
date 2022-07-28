@@ -6,11 +6,6 @@
   border-bottom: 2px solid var(--primary-green);
 }
 
-.Header .textContent span {
-  color: green !important;
-  font-family: 'Quicksand', sans-serif !important;
-}
-
 .Header .textContent {
   max-width: 50vw;
   height: fit-content;
@@ -28,16 +23,19 @@
 }
 
 .Header h1 {
-  font-family: "Quicksand", sans-serif !important;
-  text-transform: uppercase;
-  font-size: 3.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5vw;
+}
+
+.Header h1 span {
+  color: var(--primaryAccent);
 }
 
 .Header h2 {
   font-family: "Quicksand", sans-serif;
   font-weight: normal;
   font-size: 2vw;
-  max-width: 30vw;
 }
 
 .lottieAnimation {
