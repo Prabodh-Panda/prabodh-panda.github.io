@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--primaryAccent);
+    border: 1px solid var(--primaryAccent);
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 1rem;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonSecondary {
+    background-color: white;
+    border: 1px solid var(--primaryAccent);
+    color: var(--primaryAccent);
+}

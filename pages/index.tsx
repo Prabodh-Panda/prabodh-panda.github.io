@@ -1,15 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { useRef } from 'react'
 import Header from '../components/Header'
 
 import DeveloperAnimation from '../animations/developer.json'
+import Button from '../components/Button'
 
 const Home: NextPage = () => {
-  
-  const lottieRef = useRef(null)
-
   return (
     <div className={styles.container}>
       <Head>
@@ -22,6 +19,8 @@ const Home: NextPage = () => {
         <h1>
           Web Technologies Enthusiast who specializes in creating premium, component based UIs in React
         </h1>
+        <Button label="Explore"/>
+        <Button label="View CV" vairant="secondary"/>
       </Header>
     </div>
   )
