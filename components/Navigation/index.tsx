@@ -21,7 +21,7 @@ const Navbar = () => {
                         <li><Link href='/'>Home</Link></li>
                         <li><Link href='/'>Works</Link></li>
                         <li><Link href='/'>Contact Me</Link></li>
-                        <li><Link href='/'>GitHub</Link></li>
+                        <li><a href='https://github.com/prabodh-panda' target="_blank">GitHub</a></li>
                     </ul>
                     <button
                         className={
