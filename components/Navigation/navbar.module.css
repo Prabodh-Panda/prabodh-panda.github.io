@@ -1,6 +1,5 @@
 .navbar {
     height: 80px;
-    width: 100vw;
     border-bottom: 1px solid rgba(128, 128, 128, 0.2);
     display: flex;
     align-items: center;
@@ -93,6 +92,13 @@
 }
 
 @media screen and (max-width: 850px) {
+    .navbar {
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        background-color: white;
+    }
+
     .navbar .navLinks ul {
         margin: 0;
         padding: 0;

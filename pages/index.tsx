@@ -5,6 +5,7 @@ import Header from '../components/Header'
 
 import DeveloperAnimation from '../animations/developer.json'
 import Button from '../components/Button'
+import Section from '../components/Section'
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,9 @@ const Home: NextPage = () => {
           <Button label="Contact Me" vairant="secondary"/>
         </div>
       </Header>
+      <Section header="The Power of Next Put to work">
+    
+      </Section>
     </div>
   )
 }
