@@ -60,6 +60,11 @@
     margin-bottom: 1rem;
   }
 
+  .Header .lottieAnimation {
+    width: 80vw;
+    height: 40vh;
+  }
+
   .Header .textContent {
     max-width: 80vw;
   }

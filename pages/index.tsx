@@ -19,8 +19,10 @@ const Home: NextPage = () => {
         <h1>
           Web Technologies Enthusiast who specializes in creating <span>PREMIUM, COMPONENT BASED UIs</span> in React
         </h1>
-        <Button label="Explore"/>
-        <Button label="View CV" vairant="secondary"/>
+        <div className={styles.heroButtons}>
+          <Button label="Explore My Works"/>
+          <Button label="Contact Me" vairant="secondary"/>
+        </div>
       </Header>
     </div>
   )

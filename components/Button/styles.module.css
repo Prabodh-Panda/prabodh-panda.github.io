@@ -1,9 +1,9 @@
 .button {
     background-color: var(--primaryAccent);
     border: 1px solid var(--primaryAccent);
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.1rem;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
     outline: none;
     color: white;
     cursor: pointer;
