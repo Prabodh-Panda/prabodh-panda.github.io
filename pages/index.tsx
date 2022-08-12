@@ -24,9 +24,19 @@ const Home: NextPage = () => {
           <Button label="Explore My Works"/>
           <Button label="Contact Me" vairant="secondary"/>
         </div>
+        {/* TODO: Add logos of industry standard technologies that I use. */}
       </Header>
       <Section header="The Power of Next Put to work">
-    
+        <p>
+          I develop websites using latest industry standards to make them fast, reliable and secure.
+        </p>
+        <ul>
+          <li>Industry Leading Technologies</li>
+          <li>Development Best Practices</li>
+          <li>Security First Approach</li>
+          <li>Helping businesses build their online identity</li>
+        </ul>
+        {/* TODO: ADD LOGOS */}
       </Section>
     </div>
   )
