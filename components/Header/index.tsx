@@ -5,7 +5,6 @@ import {useRef, useEffect} from 'react'
 import {ReactNode} from 'react'
 
 import lottie from 'lottie-web'
-import { LottieProps } from 'react-lottie'
 
 const popIn = {
   hide: { opacit: 0, scale: 0 },
